@@ -7,6 +7,16 @@ window.I18N = {
     "hero.affiliation": "Harbin Institute of Technology (B.S.) · Ningbo University (M.Eng.)",
     "hero.download_pdf": "Download Resume (PDF)",
 
+    "exp.title": "Experience",
+    "exp.work": "<b>Ningbo Kingt Software</b> — AI Developer (Core Member, AI Applications Group)",
+    "exp.work.date": "2024 – Present",
+    "exp.work.l1": "Participated in healthcare AI engineering projects: LLM platform, intelligent consultation, clinical decision support, and research platform.",
+    "exp.work.l2": "Covered LLM service integration, AI workflow orchestration, healthcare system integration, backend development, and deployment operations.",
+    "exp.edu1": "<b>Harbin Institute of Technology</b> · B.S. in Mathematics (Computational Math)",
+    "exp.edu1.date": "2020 – 2024",
+    "exp.edu2": "<b>Ningbo University</b> · M.Eng. in Computer Science (Medical AI)",
+    "exp.edu2.date": "2026 – Present",
+
     "edu.title": "Education",
     "edu.l1.school": "<b>Harbin Institute of Technology</b> · B.S. in Mathematics (Computational Math)",
     "edu.l1.date": "2020 – 2024",
