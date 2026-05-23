@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <title>朱俊苗 / Junmiao Zhu</title>
+  <meta name="description" content="朱俊苗 (Junmiao Zhu) — AI 工程化 / AI 后端开发" />
+
+  <meta property="og:title" content="朱俊苗 / Junmiao Zhu" />
+  <meta property="og:description" content="AI Engineering &amp; Backend Development" />
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://zjm-datai.github.io/" />
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='22' font-family='ui-sans-serif,system-ui' font-size='20' font-weight='600' fill='%23111' text-anchor='middle'%3EZ%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <main class="page">
+
+    <!-- =========================================================
+         HEADER
+    ========================================================= -->
+    <header class="head">
+      <div class="head-top">
+        <div class="logos">
+          <a href="https://www.hit.edu.cn/" target="_blank" rel="noopener">
+            <img src="./assets/hit_logo.png" alt="哈尔滨工业大学" />
+          </a>
+          <a href="https://www.nbu.edu.cn/" target="_blank" rel="noopener">
+            <img src="./assets/nbu_logo.png" alt="宁波大学" />
+          </a>
+          <a href="https://www.kingtsoft.com/" target="_blank" rel="noopener">
+            <img src="./assets/kingt_logo.png" alt="金唐软件" />
+          </a>
+        </div>
+        <button id="lang-toggle" class="lang-btn" type="button" aria-label="Toggle language">
+          <span data-lang-label="zh">EN</span>
+          <span data-lang-label="en" hidden>中文</span>
+        </button>
+      </div>
+
+      <h1 class="name">
+        <span data-i18n="hero.name">朱俊苗</span>
+        <span class="name-en" data-i18n="hero.name_cn">Junmiao Zhu</span>
+      </h1>
+
+      <p class="job-target" data-i18n="hero.tagline">AI 应用开发工程师</p>
+
+      <p class="current-job" data-i18n="hero.current_job">宁波金唐软件 AI 应用工程师 · 在职</p>
+
+      <div class="contact">
+        <a href="mailto:zjm0259@gmail.com">zjm0259@gmail.com</a>
+        <span class="sep">·</span>
+        <a href="https://github.com/zjm-datai" target="_blank" rel="noopener">GitHub</a>
+        <span class="sep">·</span>
+        <a id="cv-download" href="./assets/resume_zh.pdf" download data-i18n="hero.download_pdf">下载 PDF 简历</a>
+      </div>
+    </header>
+
+    <!-- =========================================================
+         教育背景
+    ========================================================= -->
+    <section>
+      <div class="section-head">
+        <span class="section-label" data-i18n="edu.title">教育背景</span>
+        <span class="section-rule"></span>
+      </div>
+
+      <div class="edu-row">
+        <span data-i18n="edu.l1.school"><span class="label">哈尔滨工业大学</span> · 数学（计算数学方向）理学学士</span>
+        <span class="date" data-i18n="edu.l1.date">2020 – 2024</span>
+      </div>
+      <div class="edu-minor">获数学建模竞赛省级奖项，国家励志奖学金，校优秀毕业论文</div>
+
+      <div class="edu-row" style="margin-top: 7px;">
+        <span data-i18n="edu.l2.school"><span class="label">宁波大学</span> · 计算机科学与技术（医学人工智能方向）工科专硕</span>
+        <span class="date" data-i18n="edu.l2.date">2026 – 至今</span>
+      </div>
+      <div class="edu-minor">统招非全日制硕士，研究方向：病理检测、生物医学工程、智能体系统。</div>
+    </section>
+
+    <!-- =========================================================
+         核心亮点
+    ========================================================= -->
+    <section>
+      <div class="section-head">
+        <span class="section-label" data-i18n="highlights.title">核心亮点</span>
+        <span class="section-rule"></span>
+      </div>
+
+      <ul class="bullet-list">
+        <li>
+          <span class="hl-label" data-i18n="highlights.h1.tag">AI 应用全栈</span>
+          <span data-i18n="highlights.h1.body">熟悉 Java 与 Python <b>应用软件设计</b>，兼具前端能力，具备从需求拆解到生产交付的 <b>端到端独立交付能力</b>。</span>
+        </li>
+        <li>
+          <span class="hl-label" data-i18n="highlights.h2.tag">推理基础设施自建</span>
+          <span data-i18n="highlights.h2.body">主导 CosyVoice 推理框架异步化重构与服务化封装，独立搭建 MaaS 平台网关鉴权与日志链路（APISIX + RocketMQ），统一接入 vLLM / MindIE 等多推理后端，实现 LLM / TTS / ASR / Embedding 多模型标准化接入与统一调度。</span>
+        </li>
+        <li>
+          <span class="hl-label" data-i18n="highlights.h3.tag">多场景 AI 工程化落地</span>
+          <span data-i18n="highlights.h3.body">在智能问诊、模型服务、科研分析三类场景 <b>独立交付</b>，涵盖大模型接入、Agent 编排、RAG 增强检索等 <b>核心能力栈</b>。</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- =========================================================
+         项目经历
+    ========================================================= -->
+    <section>
+      <div class="section-head">
+        <span class="section-label" data-i18n="projects.title">项目经历</span>
+        <span class="section-rule"></span>
+      </div>
+
+      <article class="project">
+        <div class="project-title">
+          <span data-i18n="projects.p1.name">宁波市中医院智能问诊全流程</span>
+          <span class="date" data-i18n="projects.p1.date">2025 – 2026</span>
+        </div>
+        <div class="project-body">
+          <p><span class="project-sub-label" data-i18n="projects.label.background">背景</span><span data-i18n="projects.p1.background">原有问诊流程中患者信息采集、语音交互、设备数据和 HIS 系统相互割裂，数据无法结构化沉淀。</span></p>
+          <p><span class="project-sub-label" data-i18n="projects.label.tech">技术栈</span><span data-i18n="projects.p1.tech">LangGraph（状态图工作流）、FastAPI（异步后端）、WebSocket（实时语音流）、CosyVoice（TTS）、SenseVoice（ASR）、MinIO（对象存储）。</span></p>
+          <p><span class="project-sub-label" data-i18n="projects.label.contrib">个人工作</span><span data-i18n="projects.p1.contrib">主导把离散环节统一进会话式 AI 工作流，设计患者状态管理和症状追问引擎。独立完成 CosyVoice 推理接口从同步到异步的全面改造，重构内部推理调度逻辑并封装为稳定服务接口。</span></p>
+          <p><span class="project-sub-label" data-i18n="projects.label.result">结果</span><span data-i18n="projects.p1.result">语音首包延迟从 2 s+ <b>降至 200 ms 内</b>，已在宁波市中医院完成现场验证部署。</span></p>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-title">
+          <span data-i18n="projects.p2.name">宁波市医疗 MaaS 平台</span>
+          <span class="date" data-i18n="projects.p2.date">2025 – 2026</span>
+        </div>
+        <div class="project-body">
+          <p><span class="project-sub-label" data-i18n="projects.label.background">背景</span><span data-i18n="projects.p2.background">院内多业务系统直连大模型，调用分散、私有化部署难管控、日志和权限不统一。</span></p>
+          <p><span class="project-sub-label" data-i18n="projects.label.tech">技术栈</span><span data-i18n="projects.p2.tech">APISIX（网关鉴权插件）、RocketMQ（异步日志）、vLLM / MindIE（多后端推理）、多模型统一调度。</span></p>
+          <p><span class="project-sub-label" data-i18n="projects.label.contrib">个人工作</span><span data-i18n="projects.p2.contrib">独立完成 APISIX 网关鉴权插件和 RocketMQ 异步日志链路建设，在网关层实现 Token 鉴权、流量控制和调用日志采集。</span></p>
+          <p><span class="project-sub-label" data-i18n="projects.label.result">结果</span><span data-i18n="projects.p2.result">支撑宁波大市多家医院、院内 <b>5+ 个业务系统</b> 的模型调用。</span></p>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-title">
+          <span data-i18n="projects.p3.name">医疗科研平台</span>
+          <span class="date" data-i18n="projects.p3.date">2025 – 2026</span>
+        </div>
+        <div class="project-body">
+          <p><span class="project-sub-label" data-i18n="projects.label.background">背景</span><span data-i18n="projects.p3.background">院内科研人员在文献阅读和科研创新方面缺乏智能化工具支持。</span></p>
+          <p><span class="project-sub-label" data-i18n="projects.label.tech">技术栈</span><span data-i18n="projects.p3.tech">Docling（版面级 PDF 解析）、Qwen3-30B-A3B（LLM 翻译）、LightRAG（图谱+向量召回）、多智能体架构（Harness Engineering）。</span></p>
+          <p><span class="project-sub-label" data-i18n="projects.label.contrib">个人工作</span><span data-i18n="projects.p3.contrib">负责文献翻译和科研创新点挖掘两个核心模块的工程落地。</span></p>
+          <p><span class="project-sub-label" data-i18n="projects.label.result">结果</span><span data-i18n="projects.p3.result">PDF 版面级保真翻译，支持并发多块同步渲染；可复用的自动化科研创新分析框架。</span></p>
+        </div>
+      </article>
+    </section>
+
+    <!-- =========================================================
+         技术栈
+    ========================================================= -->
+    <section>
+      <div class="section-head">
+        <span class="section-label" data-i18n="skills.title">技术栈</span>
+        <span class="section-rule"></span>
+      </div>
+
+      <ul class="bullet-list">
+        <li><span class="hl-label" data-i18n="skills.s1.k">编程语言</span><span data-i18n="skills.s1.v">Python, Java, SQL</span></li>
+        <li><span class="hl-label" data-i18n="skills.s2.k">后端框架</span><span data-i18n="skills.s2.v">FastAPI, Flask, SQLAlchemy, SQLModel, RESTful API, WebSocket, 微服务</span></li>
+        <li><span class="hl-label" data-i18n="skills.s3.k">AI 框架</span><span data-i18n="skills.s3.v">PyTorch, LangChain, LangGraph, Hugging Face Transformers, LightRAG, Docling</span></li>
+        <li><span class="hl-label" data-i18n="skills.s4.k">推理部署</span><span data-i18n="skills.s4.v">vLLM, MindIE, GGUF 量化, CosyVoice 流式推理</span></li>
+        <li><span class="hl-label" data-i18n="skills.s5.k">数据存储</span><span data-i18n="skills.s5.v">MySQL, PostgreSQL (PgVector), Redis, MinIO, RocketMQ</span></li>
+        <li><span class="hl-label" data-i18n="skills.s6.k">云原生</span><span data-i18n="skills.s6.v">Docker, Linux, Git, APISIX, Nginx</span></li>
+        <li><span class="hl-label" data-i18n="skills.s7.k">AI 工程</span><span data-i18n="skills.s7.v">Prompt Engineering, Context Engineering, Harness Engineering</span></li>
+        <li><span class="hl-label" data-i18n="skills.s8.k">辅助工具</span><span data-i18n="skills.s8.v">Claude Code, Codex, Qoder</span></li>
+      </ul>
+    </section>
+
+    <!-- =========================================================
+         自我定位
+    ========================================================= -->
+    <section>
+      <div class="section-head">
+        <span class="section-label" data-i18n="summary.title">自我定位</span>
+        <span class="section-rule"></span>
+      </div>
+      <p class="self-desc" data-i18n="summary.body">
+        AI 工程原住民——从 Prompt Engineering 到 Context Engineering 再到 Harness Engineering，每一步都走在技术演进的前沿，不少概念在被广泛讨论之前就已落地实践。日常以 AI 编程工具为工程基础设施，坚持用工程素养驾驭工具，而不是被工具驱动。
+      </p>
+    </section>
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================= -->
+    <footer class="foot">
+      <span data-i18n="foot.copy">&copy; 2026 朱俊苗 / Junmiao Zhu</span>
+    </footer>
+
+  </main>
+
+  <script src="./assets/i18n.js"></script>
+  <script src="./assets/app.js"></script>
+</body>
+</html>

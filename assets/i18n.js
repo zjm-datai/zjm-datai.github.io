@@ -1,0 +1,75 @@
+window.I18N = {
+  en: {
+    "hero.name": "Junmiao Zhu",
+    "hero.name_cn": "朱俊苗",
+    "hero.tagline": "AI Application Engineer",
+    "hero.current_job": "Ningbo Kingt Software — AI Application Engineer",
+    "hero.affiliation": "Harbin Institute of Technology (B.S.) · Ningbo University (M.Eng.)",
+    "hero.download_pdf": "Download Resume (PDF)",
+
+    "edu.title": "Education",
+    "edu.l1.school": "<b>Harbin Institute of Technology</b> · B.S. in Mathematics (Computational Math)",
+    "edu.l1.date": "2020 – 2024",
+    "edu.l2.school": "<b>Ningbo University</b> · M.Eng. in Computer Science (Medical AI)",
+    "edu.l2.date": "2026 – Present",
+
+    "highlights.title": "Highlights",
+    "highlights.h1.tag": "Full-Stack AI Application Delivery",
+    "highlights.h1.body": "Proficient in Java &amp; Python application design with frontend capability, delivering end-to-end solutions from requirement analysis to production deployment.",
+    "highlights.h2.tag": "Inference Infrastructure Builder",
+    "highlights.h2.body": "Led asynchronous refactoring of CosyVoice inference &amp; built MaaS platform gateway auth + logging pipeline (APISIX + RocketMQ), unifying vLLM / MindIE and multi-model standardized access for LLM / TTS / ASR / Embedding.",
+    "highlights.h3.tag": "Multi-Scenario AI Engineering",
+    "highlights.h3.body": "Independently delivered across <b>3 scenarios</b> (intelligent consultation, model serving, research analysis), covering LLM integration, Agent orchestration, and RAG-enhanced retrieval.",
+
+    "projects.title": "Projects",
+    "projects.label.background": "Background",
+    "projects.label.tech": "Tech Stack",
+    "projects.label.contrib": "Contributions",
+    "projects.label.result": "Results",
+
+    "projects.p1.name": "Intelligent Consultation System — Ningbo TCM Hospital",
+    "projects.p1.date": "2025 – 2026",
+    "projects.p1.background": "Patient data collection, voice interaction, device data, and HIS system were disconnected — data could not be structured and persisted.",
+    "projects.p1.tech": "LangGraph (state-machine-driven workflow), FastAPI (async backend), WebSocket (real-time voice streaming), CosyVoice (TTS), SenseVoice (ASR), MinIO (object storage).",
+    "projects.p1.contrib": "Led the full pipeline design and integration. Independently refactored CosyVoice from synchronous to asynchronous architecture, rebuilding internal inference scheduling into stable service interfaces.",
+    "projects.p1.result": "Voice first-packet latency <b>reduced from 2s+ to under 200ms</b>; deployed and validated on-site at Ningbo TCM Hospital.",
+
+    "projects.p2.name": "Healthcare MaaS Platform — Ningbo",
+    "projects.p2.date": "2025 – 2026",
+    "projects.p2.background": "Multiple hospital systems connected to LLMs directly — scattered, hard to manage, lacking unified auth, logging, and standardized access.",
+    "projects.p2.tech": "APISIX (gateway auth plugin), RocketMQ (async logging), vLLM / MindIE (multi-backend inference), multi-model unified scheduling.",
+    "projects.p2.contrib": "Independently built the APISIX auth plugin and RocketMQ async logging pipeline. Implemented token auth, traffic control, and call log collection at the gateway layer.",
+    "projects.p2.result": "Serving <b>5+ hospital business systems</b> across multiple hospitals in Ningbo; unified multi-model management with traceable call logs.",
+
+    "projects.p3.name": "Medical Research Platform",
+    "projects.p3.date": "2025 – 2026",
+    "projects.p3.background": "Researchers lacked intelligent tools for literature reading and scientific innovation analysis.",
+    "projects.p3.tech": "Docling (document-level PDF analysis), Qwen3-30B-A3B (LLM translation), LightRAG (graph+vector retrieval), multi-agent architecture (Harness Engineering).",
+    "projects.p3.contrib": "Responsible for engineering delivery of both PDF Translation and Research Innovation Mining modules.",
+    "projects.p3.result": "Document-level faithful PDF translation with concurrent block rendering; reusable automated research innovation analysis framework.",
+
+    "skills.title": "Skills",
+    "skills.s1.k": "Languages",
+    "skills.s1.v": "Python, Java, SQL",
+    "skills.s2.k": "Backend",
+    "skills.s2.v": "FastAPI, Flask, SQLAlchemy, SQLModel, RESTful API, WebSocket, Microservices",
+    "skills.s3.k": "AI Frameworks",
+    "skills.s3.v": "PyTorch, LangChain, LangGraph, Hugging Face Transformers, LightRAG, Docling",
+    "skills.s4.k": "Inference",
+    "skills.s4.v": "vLLM, MindIE, GGUF Quantization, CosyVoice Streaming",
+    "skills.s5.k": "Data & Storage",
+    "skills.s5.v": "MySQL, PostgreSQL (PgVector), Redis, MinIO, RocketMQ",
+    "skills.s6.k": "DevOps",
+    "skills.s6.v": "Docker, Linux, Git, APISIX, Nginx",
+    "skills.s7.k": "AI Engineering",
+    "skills.s7.v": "Prompt Engineering, Context Engineering, Harness Engineering",
+    "skills.s8.k": "Tools",
+    "skills.s8.v": "Claude Code, Codex, Qoder",
+
+    "summary.title": "Summary",
+    "summary.body": "An AI Engineering Native — from Prompt Engineering to Context Engineering to Harness Engineering, always staying at the forefront. I treat AI coding tools as engineering infrastructure, mastering tools through engineering discipline rather than being driven by them. With end-to-end delivery capability in healthcare AI, I led projects including CosyVoice asynchronous refactoring, MaaS platform gateway construction, and intelligent consultation systems.",
+
+    "foot.copy": "\u00a9 2026 Junmiao Zhu",
+    "foot.source": "Source"
+  }
+};
